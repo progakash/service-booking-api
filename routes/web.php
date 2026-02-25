@@ -8,3 +8,4 @@ Route::get('/', function () {
 });
 
 Route::get('/user', [UserController::class, 'index']);
+Route::get('/all', [UserController::class, 'user']);

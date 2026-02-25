@@ -25,4 +25,9 @@ class UserController extends Controller
        return $this->logService->log($name);
     }
 
+    public function user()
+    {
+        return $this->service->getAllUser();
+    }
+
 }
